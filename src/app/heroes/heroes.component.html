@@ -1,0 +1,12 @@
+<button mat-raised-button  (click)="title='ddd'">查看帮助{{title}}</button>
+<div>
+  <ul class="heroes">
+    <li *ngFor="let hero of heros">
+      <button mat-raised-button type="button">
+        <span class="badge">{{hero.id}}</span>
+        <span class="name">{{hero.name}}</span>
+      </button>
+    </li>
+  </ul>
+</div>
+<button mat-raised-button >点击我<a  routerLink="/help">帮助</a></button>
