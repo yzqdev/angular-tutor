@@ -11,7 +11,7 @@ const routes: Routes = [
     path: 'help', component: HelpPageComponent
   },
   {
-    path: "", component: AppComponent
+    path: "", component: AppComponent,
   },
   {
     path: 'hero', component: HeroesComponent
